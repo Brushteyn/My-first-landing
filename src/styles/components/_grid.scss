@@ -1,0 +1,22 @@
+.grid {
+    padding-top: 500px;
+    
+    &__row {
+        display: flex;
+    }
+    
+    &#{&}_col_x2 {
+        .grid__col {
+            width: 50%;
+        }
+    }
+    
+    &#{&}_col_x3 {
+        padding-top: 0;
+        
+        .grid__col {
+            width: 33.33%;
+            position: relative;
+        }
+    }
+}

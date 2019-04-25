@@ -1,0 +1,22 @@
+.advantage {
+    padding: 0 35px;
+    
+    .icon {
+    display: block;
+    margin-bottom: 30px;
+    }
+}
+
+.advantage__title {
+    margin-bottom: 51px;
+    position: relative;
+}
+
+.advantage__title:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: #F47821;
+    top: 55px;
+}

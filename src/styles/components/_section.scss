@@ -1,0 +1,59 @@
+.section {    
+    &__background {
+        position: absolute;
+        background: url(../img/image.png) 0 0/ cover no-repeat;
+        left: 0;
+        right: 0;
+        height: 600px;
+        z-index: 3;
+    }
+    
+    &__title {
+        text-align: center;
+        margin: 0;
+        padding: 120px 0 60px 0;
+        
+        &#{&}_color_white {
+            color: #fff;
+        }
+    }
+    
+    &#{&}_bg_image {
+        position: relative;
+        z-index: 3;
+    }
+    
+    &#{&}_bg_white {
+        background-color: #fff;
+    }
+    
+    &#{&}_bg_black {
+        background-color: #161616;
+    }
+    
+    &__container {
+        margin: 0 auto;
+        
+        &#{&}_about {
+            max-width: 773px;
+            padding: 80px 0 100px 0;
+        }
+        
+        &#{&}_purpose {
+            max-width: 972px;
+            position: relative;
+            z-index: 5;
+            margin-bottom: 80px;
+        }
+        
+        &#{&}_advantage {
+            max-width: 1180px;
+            padding-bottom: 160px;
+        }
+        
+        &#{&}_contacts {
+            max-width: 575px;
+            padding-bottom: 120px;
+        }
+    }
+}

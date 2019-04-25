@@ -1,0 +1,20 @@
+.purpose {
+    padding: 60px 70px 60px 60px;
+    background-color: #fff;
+    border: 1px solid #EDEDED;
+    //margin-bottom: 80px;
+    
+    &__title {
+        color: #F47821;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+    }
+    
+    &__text {
+        font-size: 24px;
+        padding-top: 12px;
+        margin: 0;
+    }
+}
+
