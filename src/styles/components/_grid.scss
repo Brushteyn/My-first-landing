@@ -20,3 +20,29 @@
         }
     }
 }
+
+@media screen and (max-width: 1020px) {
+    .grid {
+         padding-top: 300px; 
+    }
+    
+    .grid__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .grid {
+         padding-top: 150px;
+        
+            &#{&}_col_x3 {
+            padding-top: 0;
+
+            .grid__col {
+                width: 100%;
+                position: relative;
+            }
+    }
+    }
+}

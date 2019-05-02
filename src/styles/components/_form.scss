@@ -58,3 +58,22 @@
     font-size: 24px;
     padding: 20px 0 10px 0;
 }
+
+@media screen and (max-width: 810px) {
+    .form__field:before {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

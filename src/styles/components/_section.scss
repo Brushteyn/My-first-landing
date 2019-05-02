@@ -2,6 +2,10 @@
     &__background {
         position: absolute;
         background: url(../img/image.png) 0 0/ cover no-repeat;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
         left: 0;
         right: 0;
         height: 600px;
@@ -57,3 +61,59 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .section__container {
+        
+        &#{&}_about {
+            padding: 30px 0;
+        }
+        
+        &#{&}_advantage {
+            padding-bottom: 30px;
+        }
+        
+            h2, p {
+                margin-left: 20px;
+                margin-right: 20px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .section__title {
+        font-size: 30px;
+        padding: 30px 0 60px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

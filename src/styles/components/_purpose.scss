@@ -2,7 +2,6 @@
     padding: 60px 70px 60px 60px;
     background-color: #fff;
     border: 1px solid #EDEDED;
-    //margin-bottom: 80px;
     
     &__title {
         color: #F47821;
@@ -18,3 +17,16 @@
     }
 }
 
+@media screen and (max-width: 620px) {
+    .purpose {
+        padding: 30px 35px 30px 30px;
+    }
+    
+    .purpose__title {
+        font-size: 10px;
+    }
+    
+    .purpose__text {
+        font-size: 16px;
+    }
+}
